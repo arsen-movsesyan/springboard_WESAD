@@ -92,7 +92,7 @@ Having this instruction those python scripts got created to parse and load data 
 ####Parser for SX_readme.txt
 As file SX_readme.txt is not a data frame but just overall information 
 about subject, so regular python tools may be used to parse and collect data.
-See file [readme_parser.py](src/readme_parser.py)
+See file [readme_parser.py](parsers/readme_parser.py)
 
 Appropriate comments made in the source code.
 
@@ -103,4 +103,4 @@ File quest.csv in reality not a data frame but unstructured source for various q
 
 Every type of question set should be parsed on its way.
 
-File [quest_parser.py](src/quest_parser.py) is initial set of parsing and reading.
+File [quest_parser.py](parsers/quest_parser.py) is initial set of parsing and reading.
